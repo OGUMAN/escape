@@ -1,0 +1,273 @@
+.posts__header {
+  background: #ffffff;
+  position: relative;
+}
+
+.posts__nav {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 981px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.posts__link {
+  text-align: center;
+  color: $gray2;
+  font-size: 14px;
+  font-family: $Lara;
+  width: 118px;
+  display: block;
+  justify-content: center;
+  margin: 0 21px;
+  transition: color 0.2s;
+  &:hover {
+    color: #000000;
+  }
+}
+
+.featured-post_first {
+  background-image: url("img/post-01.jpg");
+}
+
+.featured-post_second {
+  background-image: url("img/post-02.jpg");
+}
+
+.featured-post {
+  background-position: 0 0;
+  background-size: cover;
+  width: calc(50% - 10.5px);
+  min-height: 280px;
+  margin-bottom: 20px;
+}
+
+.posts__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured-post__content {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  padding: 20px;
+}
+
+.featured-post__title {
+  font-size: 27px;
+  font-family: $Lara;
+  color: $white;
+  line-height: 30px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.featured-post__desc {
+  color: $gray;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.featured-post__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post__text {
+  width: 100%;
+}
+
+.post__autor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post__avatar {
+  margin-right: 10px;
+  img {
+    border-radius: 50%;
+  }
+}
+
+.featured-post__date {
+  color: $gray;
+  font-size: 12.2px;
+}
+
+.posts__featured {
+  padding-bottom: 49.5px;
+}
+
+.post__tag {
+  font-size: 12px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: $white;
+  background: #dd783f;
+  border-radius: 2px;
+  padding: 6.5px 9px;
+  margin-bottom: 21px;
+  max-width: 184px;
+}
+
+.posts__flex {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recent-post {
+  width: calc(33% - 12px);
+  margin-bottom: 25px;
+}
+
+.recent-post__img {
+  // height: 149px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 151.11px;
+  // max-width: 298.2px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.recent-post__text {
+  padding: 15px 14px 0;
+  padding-bottom: 0;
+  background-color: $white;
+  min-height: 93px;
+}
+
+.recent-post__title {
+  font-family: $Lara;
+  font-size: 16px;
+  color: $black2;
+  margin-bottom: 9px;
+  display: block;
+}
+
+.recent-post__desc {
+  color: $gray3;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.recent-post__info {
+  background: #fcfcfc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16.5px 10.5px 14px;
+}
+
+.recent-post__autor {
+  display: flex;
+  align-items: center;
+}
+
+.recent-post__avatar {
+  margin-right: 10px;
+  img {
+    border-radius: 50%;
+  }
+}
+
+.post__name {
+  font-size: 12px;
+  margin-right: 15px;
+  max-width: 151px;
+}
+
+.recent-post__date {
+  font-size: 12px;
+}
+
+.posts__content {
+  padding-bottom: 83px;
+  padding-top: 63px;
+}
+
+.posts__btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  text-align: center;
+  transition: color 0.2s;
+}
+
+.post__btns {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 225px;
+  width: 100%;
+}
+
+.section__title_recent {
+  margin-bottom: 38.5px;
+}
+
+.posts__recent {
+  justify-content: space-between;
+}
+
+.featured-post__text {
+  width: 100%;
+}
+
+.post__name_featured,
+.featured-post__date {
+  color: $gray;
+}
+
+.post__name_recent,
+.recent-post__date {
+  color: $gray6;
+}
+
+.post__name_william {
+  font-size: 11px;
+}
+
+.section__title_featured {
+  margin-bottom: 42px;
+}
+
+.post__date {
+  text-align: right;
+  max-width: 125px;
+}
+
+.post__avatar,
+.recent-post__avatar {
+  img {
+    height: 26px;
+    width: 26px;
+  }
+}

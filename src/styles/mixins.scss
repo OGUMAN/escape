@@ -1,0 +1,15 @@
+@import "preferences.scss";
+
+@mixin headerAbove() {
+  @if ($isHeaderAbove == true) {
+    .header {
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+
+    .intro__content {
+      padding-top: $headerHeight !important;
+    }
+  }
+}

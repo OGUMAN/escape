@@ -1,0 +1,76 @@
+.touch__inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 501px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.touch__email {
+  background-color: $white;
+  padding: 17px 35px;
+  width: 100%;
+  max-width: 377px;
+  font-size: 12px;
+  border-radius: 3px 0px 0px 3px;
+  border: 0;
+  height: 50px;
+  padding-top: 16px;
+}
+
+.touch {
+  background-image: url("img/touch.jpg");
+  background-size: cover;
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+
+.touch__content {
+  padding-top: 81px;
+  padding-bottom: 90px * 2;
+}
+
+.touch__title {
+  font-size: 25px;
+  color: $white2;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-bottom: 38.5px;
+}
+
+.touch__btn {
+  background: rgba(255, 255, 255, 0.28);
+  height: 50px;
+  font-size: 12px;
+  border: 0;
+  padding: 18px 43.7px;
+  color: $white3;
+  border-radius: 0px 3px 3px 0px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  padding-top: 17px;
+  &:hover {
+    background-color: rgba(150, 150, 150, 0.4);
+  }
+}
+
+.touch__email::placeholder {
+  font-size: 12px;
+  font-family: $Roboto;
+}
+
+@media only screen and (max-width: 520px) {
+  .touch__email {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .touch__btn {
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+}
